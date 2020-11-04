@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65d03e2-1f7d-40bb-ae7f-6c09245bc62c" name="Default Changelist" comment="" />
+    <list default="true" id="a65d03e2-1f7d-40bb-ae7f-6c09245bc62c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/forms.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jmz6SYHwRmbHRaXNibvM5PcHRo" />
   <component name="ProjectViewState">
@@ -15,6 +25,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -29,10 +40,17 @@
       <option name="presentableId" value="Default" />
       <updated>1604423880076</updated>
       <workItem from="1604423881473" duration="2646000" />
+      <workItem from="1604437043372" duration="4233000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1604437050866">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="479" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1604437050866" />
   </component>
 </project>

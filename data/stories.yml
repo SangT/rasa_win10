@@ -6,6 +6,7 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_ask
   - intent: affirm
   - action: utter_windows10
   - action: utter_did_that_help
@@ -16,8 +17,20 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
+  - action: utter_ask
   - intent: affirm
   - action: utter_windows10
   - action: utter_did_that_help
   - intent: deny
   - action: utter_what_else
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_ask
+  - intent: affirm
+  - action: utter_windows10
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy

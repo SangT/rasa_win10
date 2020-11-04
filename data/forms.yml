@@ -1,7 +1,0 @@
-version: "2.0"
-
-forms:
-
-  help_form:
-    email:
-    - type: from_text

@@ -1,41 +1,34 @@
-version: "2.0"
-
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-
-responses:
-  utter_greet:
-  - text: "Hey! Do you need help with Rasa Open Source installation?"
-
-  utter_windows10:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_cheer_up:
-    - text: "Here are the steps: 12-3456"
-      image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-    - text: "Did that help you?"
-
-  utter_what_else:
-    - text: "What else can I help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa, trained by Grace, Dee, and Kham."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- affirm
+- goodbye
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+responses:
+  utter_greet:
+  - text: Hey there!
+  utter_ask:
+    - text: Do you need help with Rasa Open Source installation?
+  utter_windows10:
+  - text: 'You can follow this link https://rasa.com/docs/rasa/installation'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_what_else:
+  - text: What else can I help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye. See You!
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa, trained by Grace, Dee, and Kham.
+actions:
+- utter_did_that_help
+- utter_greet
+- utter_happy
+- utter_windows10
+version: '2.0'
